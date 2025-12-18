@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shaurya Dubey | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#home">Shaurya Dubey</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#testimonials">Testimonial</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a class="btn btn-outline" href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 class="name">SHAURYA DUBEY</h1>
+        <p class="intro">
+          Hello, my name is Shaurya DUBEY. I am currently pursuing BCA (Bachelor of Computer Applications) from Galgotias University, Greater Noida. I have a keen interest in the IT sector, especially in web development and cybersecurity
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="image/20240428_152651.jpg" alt="Portrait of Shaurya Dubey" />
+      </div>
+    </div>
+  </section>
+    <!-- Skills -->
+  <section id="skills" class="skills">
+    <div class="container skills-grid">
+      <h2>My Skills</h2>
+      <p class="lead">Here are some of my technical and professional skills:</p>
+      <div class="skills-list">
+        <div class="skill">
+          <span>HTML</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;">85%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;">75%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;">60%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Cybersecurity</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Problem Solving</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="works" class="projects">
+    <div class="container projects-grid">
+      <h2>My Projects</h2>
+      <p class="lead">Some of the projects I’ve worked on:</p>
+      <div class="project-card">
+        <img src="image/edumart.jpg" alt="Edu-Mart Project Screenshot" />
+        <h3>Edu-Mart</h3>
+        <p>An online education marketplace built with HTML and CSS. Focused on clean design and usability.</p>
+        <a href="https://github.com/shaurya0001-dev/edu-mart" class="btn btn-outline">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="image/portfolio.jpg" alt="Portfolio Website Screenshot" />
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio website showcasing my skills, projects, and resume. Built with HTML and CSS.</p>
+        <a href="https://github.com/shaurya0001-dev" class="btn btn-outline">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <img src="image/20240428_152651.jpg" alt="Shaurya Dubey speaking at an event" />
+      </div>
+      <div class="about-content">
+        <h2>About me</h2>
+        <p class="lead">
+         I have basic knowledge of HTML, CSS, and JavaScript, and I have also completed a virtual internship with Cisco in Cybersecurity, where I gained an understanding of network security and cyber threats. I am continuously working on improving my technical skills and building projects to become job-ready.
+        </p>
+        <p>
+          I am a quick learner, self-motivated, and eager to gain real-world experience through internships or entry-level opportunities. My goal is to start my career in the IT industry and grow as a skilled professional.
+        </p>
+        <div class="about-actions">
+          <a href="image/Shaurya Dubey.pdf" class="btn btn-primary" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Contact us</h2>
+        <p>Ready to collaborate? Let’s talk.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> dshaurya2004@gmail.com</li>
+          <li><strong>Phone:</strong> +91 807600XXXX</li>
+          <li><strong>Location:</strong> Noida, UP, India</li>
+        </ul>
+      </div>
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Tell me about your project" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p class="dim">© 2025 Shaurya Dubey. All rights reserved.</p>
+      <div class="social">
+        <a href="https://github.com/shaurya0001-dev" aria-label="GitHub">GitHub</a>
+        <a href="https://www.instagram.com/__shauryaa.07?igsh=Z3dkdGN5enlkdGp0" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('nav-menu');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
